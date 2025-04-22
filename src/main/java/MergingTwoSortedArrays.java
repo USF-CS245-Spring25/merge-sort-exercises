@@ -14,7 +14,7 @@ public class MergingTwoSortedArrays {
         int j = 0; // index for arr2
         int k = 0; // index for res
         // FILL IN CODE:
-        while (k <= arr1.length + arr2.length) {
+        while (k < arr1.length + arr2.length) {
             // FILL IN CODE:
             // handle the case when arr2 has no elements, but arr1 has
 
